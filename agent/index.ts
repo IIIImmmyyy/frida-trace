@@ -7,7 +7,6 @@ setImmediate(main)
 
 function main() {
     straceInject.start();
-    // log("hookStart");
 
 }
 
