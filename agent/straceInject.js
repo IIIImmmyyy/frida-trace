@@ -2,7 +2,7 @@ import {log} from "./logger";
 import {strace} from "./strace";
 
 
-let soName="libtprt.so";
+let soName="libdumper.so";
 let once=false;
 export let straceInject={
     start:function (){
@@ -47,6 +47,6 @@ function trace(){
         return
     }
     once=true;
-    strace.start(soName,0x32960,0x1478);
+    strace.start(soName,0x539f8,0);
 }
 
