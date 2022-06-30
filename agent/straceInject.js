@@ -47,6 +47,6 @@ function trace(){
         return
     }
     once=true;
-    strace.start(soName,0x539f8,0);
+    strace.start(soName,0x539f8,0x70);
 }
 
