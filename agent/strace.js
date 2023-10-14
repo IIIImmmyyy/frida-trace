@@ -210,11 +210,11 @@ function  getColor(){
         currentIndex=0;
     }
     if (currentIndex===0){
-        return LogColor.C35;
+        return LogColor.RED;
     }else if (currentIndex===1){
-        return LogColor.C97;
+        return LogColor.C35;
     }else if (currentIndex===2){
-        return LogColor.C97
+        return LogColor.C35
     }
 }
 function getRegsString(index) {
